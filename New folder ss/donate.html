@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Donate | NGO Charity</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">NGO <span>Charity</span></div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="donate.html" class="active">Donate</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="page donate-page">
+    <h1>Make a Donation</h1>
+    <p>Your support transforms lives. Choose an amount and help us continue our mission.</p>
+
+    <form id="donateForm">
+      <label>Full Name</label>
+      <input type="text" required placeholder="Enter your name">
+      
+      <label>Email</label>
+      <input type="email" required placeholder="Enter your email">
+      
+      <label>Donation Amount ($)</label>
+      <input type="number" min="1" required placeholder="Enter amount">
+      
+      <button type="submit">Donate Now</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>© 2025 Helping Hands Foundation | All Rights Reserved</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
